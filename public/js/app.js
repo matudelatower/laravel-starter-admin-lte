@@ -27785,7 +27785,7 @@ window._ = __webpack_require__(139);
 
 try {
   window.$ = window.jQuery = __webpack_require__(2);
-  window.$.widget.bridge('uibutton', $.ui.button);
+
   __webpack_require__(140);
 } catch (e) {}
 

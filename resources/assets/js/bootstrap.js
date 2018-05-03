@@ -10,7 +10,7 @@ window._ = require('lodash');
 
 try {
     window.$ = window.jQuery = require('jquery');
-    window.$.widget.bridge('uibutton', $.ui.button);
+
     require('bootstrap');
 } catch (e) {}
 
